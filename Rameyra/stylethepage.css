@@ -1,0 +1,267 @@
+/* navbars styles begining */
+
+.main-nav__logo {
+  font-size: 40px;
+  text-decoration: none;
+  color: #22333b;
+  font-family: "roca", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: inline-block;
+}
+
+main {
+  color: #22333b;
+  padding-inline: 20px;
+}
+
+.main-nav-info {
+  display: inline-block;
+}
+
+.main-nav-info__items {
+  list-style: none;
+}
+.main-nav-info a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: #22333b;
+  font-family: "neulis-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+}
+.main-nav-info__item {
+  display: inline-block;
+}
+.main-nav-info__itemimg {
+  width: 12px;
+}
+
+.hr-nav {
+  height: 2px;
+  width: 93%;
+  background-color: #22333b;
+  columns: #22333b;
+}
+
+.main-nav-bottom {
+  display: inline-block;
+  font-size: 20px;
+}
+.main-nav-bottom a {
+  padding: 30px;
+  text-decoration: none;
+  color: #22333b;
+}
+
+.main-nav__items {
+  list-style: none;
+}
+
+.main-nav__item {
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+  margin-inline: 40px;
+}
+.main-nav__item a {
+  padding: 5px;
+  margin: 0%;
+}
+
+.main-nav__item-icon {
+  width: 20px;
+  display: inline-block;
+  padding: 0%;
+  margin: 0%;
+}
+/* navbars styles end */
+
+/* hot drinks style begin */
+
+.product-section-hotdrinks {
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  margin: 40px;
+  color: #5e4c3f;
+}
+
+.product-section__icon {
+  width: 25px;
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.left-section {
+  width: 35%;
+  display: flex;
+  color: #2e2e2e;
+}
+
+.productinfo {
+  display: flex;
+  width: 400px;
+  height: 180px;
+  font-size: 13px;
+}
+
+.productinfo__div {
+  width: 70%;
+}
+
+.products {
+  width: 50%;
+  width: 100%;
+}
+
+.productinfo__list {
+  list-style: none;
+  color: #2e2e2e;
+  font-family: "neulis-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  padding-left: 12px;
+}
+.productinfo__header {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  line-height: 20px;
+}
+
+.productinfo__items {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.productinfo__note {
+  font-size: 10px;
+  margin-left: 20px;
+  line-height: 13px;
+}
+
+.productinfo__price-hotdrinks {
+  float: right;
+  margin-right: 10px;
+  color: #5e4c3f;
+}
+
+.productimage {
+  float: right;
+  width: 25%;
+  padding: 25px;
+}
+
+.productimage__img {
+  width: 150px;
+}
+
+.center-section {
+  width: 35%;
+  display: inline-flex;
+  color: #2e2e2e;
+}
+
+.right-section {
+  width: 20%;
+  color: #2e2e2e;
+}
+
+.comment {
+  font-family: "neulis-neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+/* Hot drinks style end*/
+
+/* Cold drinks style begin*/
+
+.product-section-colddrinks {
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  margin: 40px;
+  color: #a9927d;
+}
+
+.productinfo__price-colddrinks {
+  float: right;
+  margin-right: 10px;
+  color: #a9927d;
+}
+
+/* Cold drinks style end*/
+
+/* Sandwich and snacks style begin*/
+
+.product-section-sand {
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  margin: 40px;
+  color: #465e69;
+}
+
+.productinfo__price-sand {
+  float: right;
+  margin-right: 10px;
+  color: #465e69;
+}
+
+/* Sandwich and snacks style end*/
+
+/* Desserts style begin*/
+.product-section-dessert {
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  margin: 40px;
+  color: #adc178;
+  margin-left: 300px;
+}
+
+.productinfo__price-dessert {
+  float: right;
+  margin-right: 10px;
+  color: #adc178;
+}
+
+/* Desserts style end*/
+
+/* kahve lekesi style begin*/
+.background_decor1 {
+  margin: 50px 0px 10px 100px;
+  width: 70%;
+}
+.background_decor2 {
+  margin-top: 100px;
+  width: 80%;
+}
+
+.background_decor3 {
+  margin-top: 50px;
+  width: 95%;
+}
+
+.footerhead {
+  text-align: center;
+  font-family: "eldwin-script", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #22333b;
+}
